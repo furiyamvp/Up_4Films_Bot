@@ -6,10 +6,7 @@ env.read_env()
 BOT_TOKEN = env.str("BOT_TOKEN")
 ADMINS = env.list("ADMINS")
 
-CHANNELS = [
-    ("https://t.me/Zangoriekran_kanali", -1002107248547, "Zangori Ekran"),
-    ("https://t.me/Yummy_multik", -1001652312277, "Yummy"),
-]
+CHANNELS = []
 
 DB_USER = env.str("DB_USER")
 DB_PASS = env.str("DB_PASS")
